@@ -1,0 +1,3 @@
+select DISTINCT * 
+from VINI.PUBLIC.PRODUCTS 
+where PRODUCT_ID is not NULL

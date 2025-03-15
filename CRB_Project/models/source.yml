@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: vini
+    description: "This source contains data from Snowflake"
+    database: VINI
+    schema: PUBLIC
+    tables:
+      - name: CUSTOMERS
+        description: "Table containing customer data"
+        
+      - name: PRODUCTS
+        description: "Table containing customer data"
+
+      - name: TRANS
+        description: "Table containing customer data"
+
+      - name: stg_Customer
+      - name: stg_Product
+      - name: stg_Trans
+      
+        
