@@ -1,0 +1,94 @@
+{
+	"name": "SnowflakeTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [
+			{
+				"name": "CUSTOMER_ID",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "PRODUCT_ID",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "PAYMENT_MONTH",
+				"type": "DATE"
+			},
+			{
+				"name": "REVENUE_TYPE",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "REVENUE",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 2
+			},
+			{
+				"name": "QUANTITY",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "DIM_1",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "DIM_2",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "DIM_3",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "DIM_4",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "DIM_5",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "DIM_6",
+				"type": "BOOLEAN"
+			},
+			{
+				"name": "DIM_7",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "DIM_8",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "DIM_9",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "DIM_10",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "COMPANIES",
+				"type": "VARCHAR"
+			}
+		],
+		"typeProperties": {
+			"schema": "PUBLIC",
+			"table": "TRANS"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

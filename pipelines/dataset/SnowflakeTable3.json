@@ -1,0 +1,30 @@
+{
+	"name": "SnowflakeTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [
+			{
+				"name": "PRODUCT_ID",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "PRODUCT_FAMILY",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "PRODUCT_SUB_FAMILY",
+				"type": "VARCHAR"
+			}
+		],
+		"typeProperties": {
+			"schema": "PUBLIC",
+			"table": "PRODUCTS"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "HealthCareFac",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bdc4ca49-5eb9-4683-ae73-3299ed2443cd",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}
