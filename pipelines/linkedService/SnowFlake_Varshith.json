@@ -1,0 +1,22 @@
+{
+	"name": "SnowFlake_Varshith",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SnowflakeV2",
+		"typeProperties": {
+			"authenticationType": "Basic",
+			"accountIdentifier": "GI45660",
+			"user": "ViniVars",
+			"database": "VARSHITH",
+			"warehouse": "COMPUTE_WH",
+			"role": "ACCOUNTADMIN",
+			"host": "RQFQNKS-GI45660.snowflakecomputing.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1ZGUzYjhiNS1iNDgwLTQyMzItYWVkOC1lNGEyNjQwNWViMGIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "Vini-Self-Hosting",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
